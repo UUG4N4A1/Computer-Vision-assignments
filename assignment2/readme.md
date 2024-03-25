@@ -8,7 +8,7 @@ This code uses OpenCv library to process each frame of the input to achieve cart
 3. Window titled Cartoom will appear.
 4. Press 'Esc' to close the window and exit the script.
 
-##Possible improvments
+## Possible improvments
 - Reduce the frame size or skip frame to reduce process delay
 
 ## Example 
