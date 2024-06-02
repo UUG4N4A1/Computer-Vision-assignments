@@ -1,6 +1,6 @@
 # Hand-Tracking Tic-Tac-Toe
 
-This project implements a hand-tracking-based Tic-Tac-Toe game using OpenCV and a custom hand-tracking module. Players can use their hands to draw 'X' and 'O' on a virtual game board displayed on the screen.
+This project implements a hand-tracking-based Tic-Tac-Toe game using OpenCV and a custom hand-tracking module that watched and repeated from youtube channel 'Murtaza's Workshop'. Players can use their hands to draw 'X' and 'O' on a virtual game board displayed on the screen.
 
 ## Features
 - Hand tracking to detect finger positions.
@@ -31,7 +31,7 @@ This project implements a hand-tracking-based Tic-Tac-Toe game using OpenCV and 
 
 2. Instructions for playing:
 
-- Use your hand to interact with the game.
+- Use your Index and Middle Finger like mouse (2 finger touches each other = Mouse pressed).
 - Make sure your webcam is capturing your hand properly.
 - The game will display your moves and indicate the winner.
 
@@ -55,9 +55,21 @@ The game_logic function checks for win conditions and returns the winner if ther
 ### Main Function
 The main function initializes the game, captures video from the webcam, tracks hand positions, and updates the game state in real-time.
 
+## Problem
+- X and O that pressed does not appear. However, it shows on console. I assume the reason is x and o paints 1 time and next time it does not. So the solution would be use board dictionary and prints the results again and again.
+
 ## Example Pictures: 
 
+### Hand Detection
+![hand detection](Images/hand.png)
 
+### 2 Fingers
+![2fingers](Images/2fingers.png)
 
+### 2 Fingers Pressed
+![2fingers_pressed](Images/2fingers_2.png)
 
+### Console Image of Video
+![console](Images/console.png)
+![play video](Images/Play.mp4)
 
